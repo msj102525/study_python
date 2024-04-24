@@ -12,6 +12,9 @@ import conditional.ifSample as cif
 import conditional.ifMission1 as cm1
 import conditional.ifMission2 as cm2
 import conditional.ifMission3 as cm3
+import loop.forSample as lf
+import loop.forMission1 as lfm1
+import loop.whileSample as lw
 
 # 프로그램을 시작하는 구문임
 if __name__ == '__main__':
@@ -38,6 +41,25 @@ if __name__ == '__main__':
     # 조건문 실습 문제
     # cm1.practice1()
     # cm2.practice2()
-    cm3.practice3()
+    # cm3.practice3()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    # 반복문 테스트
+    # lf.test_for1()
+    # lf.for_sum()
+    # lf.test_iterable()
+    # lf.test_range()
+    # lf.for_indexing()
+    # lf.print_gugudan()
+    # lf.print_gugudan2()
+    # lf.list_in_list()
+    # lf.list_in_list2()
+    # lf.list_in_list3()
+    # lw.test_while()
+    # lw.print_unucode()
+    lw.print_unicode2()
+
+
+
+    #  반복문 실습
+    # lfm1.practice_loop()
+

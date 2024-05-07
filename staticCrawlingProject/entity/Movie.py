@@ -12,8 +12,9 @@ class Movie:
     link = ''       # 상세페이지 url
 
     # 생성자 (constructor)
+    # 생성자 (constructor)
     def __init__(self, rank, title, star_point, release_date, genre, link):
-        self.title = title
+        self.rank = rank
         self.title = title
         self.star_point = star_point
         self.release_date = release_date

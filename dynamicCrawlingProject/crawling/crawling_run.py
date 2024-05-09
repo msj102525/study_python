@@ -28,6 +28,10 @@ from selenium.webdriver.support.ui import WebDriverWait # 클래스
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
+# db 저장 처리용 모듈
+from model.tour_model import TourModel
+from model.tour import TourInfo
+
 # selenium 과 연결활 브라우저 선택 : 크롬(chrome)
 # 현재 설치 사용중인 크롬 브라우저의 버전 확인함
 # >> 브라우저 우측 상단 점3개 > 도움말 > Chrome 정보 > 버전정보 확인 : 124.0.6367.119 (최신 버전으로)
@@ -60,7 +64,7 @@ def run():
     # 찾은 엘리먼트 태그에서 마우스 우클릭 > copy > copy selector 선택함
     # input 태그 id 명 : #query 복사됨
     input_tag = driver.find_element(By.ID, 'query')
-    print(input_tag)
+    # print(input_tag)
     input_tag.send_keys(keyword)
     # 해당 웹페이지 검색 input 에 '로마여행' 자동 입력됨
 
@@ -93,5 +97,57 @@ def run():
     # 절대적 대기 설정
     # time.sleep(10)  # 10초 대기
 
+    # #nxTsOv > div > div.MainContainer._travel_header.MainContainer-vjtko > div.PanelHeader-vpb6F > div.TabList-Erooo._scroll_wrapper > div.scroll-D9KKR._scroller > ul > li:nth-child(4) > a
+    # 로마 > 가볼만한 곳 : 클릭 처리 > 아래쪽에 정보가 표시됨
+    driver.find_element(By.CSS_SELECTOR, '#nxTsOv > div > div.MainContainer._travel_header.MainContainer-vjtko > div.PanelHeader-vpb6F > div.TabList-Erooo._scroll_wrapper > div.scroll-D9KKR._scroller > ul > li:nth-child(4) > a > span').click()
 
+    # 해당 페이지 영역에서 데이터를 가져올 때, 혹시 로그인이 필요한 경우에는 로그인 세션 관리 필요함
+    # 데이터가 많으면 세션 타임아웃에 의해 자동 로그아웃될 수 있으므로, 특정 단위별로 로그아웃하고,
+    # 다시 로그인하는 처리가 필요함 => loop 문 돌려서 일괄적으로 접근 처리 필요함 : 메타 정보 획득
+    # searchModule.SetCategoryList(1, '') 자바스크립트 실행
+    # => 해당 웹페이지에서 제공하는 자바스크립트 함수를 찾아내서 실행되게 함
+
+    # 가볼만한 곳 항목들 추출
+    item_list = driver.find_elements(By.CSS_SELECTOR, '.TopPoiItem-MgXeO')
+    print(len(item_list))
+    print(item_list)
+    # 가볼만한 곳 항목에서 데이터 추출
+    # 추출할 값 : 순위(rank), 장소이름(name), 장소설명(description), 장소구문(category)
+    tm = TourModel() # db 저장 처리를 위한 객체 생성
+    # 기존 테이블에 저장된 정보 모두 지우기
+    tm.delete_all()
+
+    for item in item_list:
+        rank = item.find_element(By.CSS_SELECTOR, 'span.rank-shDNS').text
+        # print(rank)
+        name = item.find_element(By.CSS_SELECTOR, 'b.name-icVvV').text
+        # print(name)
+        description = item.find_element(By.CSS_SELECTOR, 'span.desc-tw973').text
+        # print(description)
+        category = item.find_element(By.CSS_SELECTOR, 'span.text-Y6pAX').text
+        # print(category)
+
+        # 튜플로 저장 처리
+        tp_info = (rank, name, description, category)
+        # db 에 저장 처리
+        tm.insert_tour(tp_info)
+    # for loop -------------------------------------------------------------------------
+
+    # db 에 저장된 정보 조회 출력 확인
+    resultset = tm.select_all()
+    # 리턴된 정보들을 한행씩 TourInfo 객체에 저장 처리하고, 리스트에 추가
+    tour_list = []
+    for row in resultset:
+        tourInfo = TourInfo(row[0], row[1], row[2], row[3])
+        print(tourInfo)     # 객체 정보 출력 확인
+        tour_list.append(tourInfo)
+
+    print(tour_list)
+
+    # 브라우저 종료
+    driver.close()  # 크롬 브라우저 닫기
+    driver.quit()   # 드라이버 종료
+
+    return  # main 으로 리턴 : 프로세스 종료
+    # run() ------------------------------------------------------------
 

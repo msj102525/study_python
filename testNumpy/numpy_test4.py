@@ -49,6 +49,7 @@ print(ar2[idxArray2])
 idxArray3 = np.array([0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 3, 3, 3, 3]) # 15개
 print(ar2[idxArray3])
 
+
 # 배열 인덱싱은 다차원배열의 각 차원에 대해서도 적용할 수 있음
 ar3 = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])   # 3행 4열
 print(ar3)

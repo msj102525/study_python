@@ -52,5 +52,82 @@ y = np.arange(12).reshape(3, 4)
 print(y)
 print(100 * y)
 
+# numpy 에서 행과 열이 다른 백터끼리도 연산이 가능하도록 지원함 -> 이 기능을 브로드캐스팅이라고함
+# 크기가 작은 백터가 자동으로 크기가 큰 백터의 행과 열갯수와 맞춰짐 (확장)
+
+# 확인 1 :
+x = np.arange(5)
+print(x)
+y= np.arange(2)
+
+# 다차원에도 적용
+dx = np.vstack([range(7)[i:i + 3] for i in range(5)])   # 리스트 내포
+print(dx)
+dy = np.arange(5)[:, np.newaxis] # 열이 행이 됨, 차원 1증가 처리
+print(dy)
+# 행과 열갯수가 다른 경우
+print(dx + dy)  # 열갯수가 다른 2차원배열 더하기 연산 : 브로드캐스팅 적용됨
+
+# 차원 축소 연산
+# 배열의 가로 행(줄) 또는 세로 열(칸) 전테를 하나의 값으로 보고 연산해서
+# 하나의 결과를 만드는 것을 축소 연산(demesion reduction) 이라고 함
+# 1차원배열은 축소연산의 결과는 값
+# 2차원배열은 축소연산의 결과가 1차원배열이 됨
+# 사용되는 함수 : max(최대값), min(최소값), argmax(최대값의 index), argmin(최소값의 index)
+#                       sum(합계), mean(평균), median(중간값), std(표준편차), var(분산)
+#                       boolean 값 : all, any
+x = np.array([1, 2, 3, 4])
+print(x)
+print(np.sum(x))    # 10
+print(x.sum())  # 10
+
+x2 = np.array([1, 3, 2])
+print(x2.min()) # 1
+print(x2.max()) # 3
+print(x2.argmin())  # 최소값의 위치 : 0
+print(x2.argmax())  # 최대값의 위치 : 1
+
+x3 = np.array([1, 2, 3, 1])
+print(x3.mean())    # 평균 : 1.75
+print(np.median(x3))    # 최소와 최대의 중간값
+
+print(np.all([True, True, False]))  # False
+print(np.any([True, True, False]))  # True
+
+ar = np.zeros((100, 100), dtype=np.int_)
+print(ar)
+print(np.any(ar != 0))  # False, 배열 안에 0이 아닌 값이 하나라도 있느냐?
+print(np.all(ar == ar)) # True, 배열의 각 인덱스의 값들이 모두 같으냐?
+
+a = np.array([1, 2, 3, 2])
+b = np.array([2, 2, 3, 2])
+c = np.array([6, 4, 4, 5])
+
+print(((a <= b) & (b <=c)).all())    # True
+# (a <= b) : [T, T, T, T]
+# (b <= c) : [T, T, T, T]
+# & : [T, T, T, T].all() => 모두 다 True 냐?
+
+# 정렬 sort()
+# 1차원배열은 값들의 오름 | 내림차순 정렬이 됨
+# 2차원배열은 행별(가로값들)로 정렬, 열별(세로값들)로 정렬을 함 (axis 인수 사용함)
+# axis=0 : 열별로 정렬, axis=1 | -1 (기본값, 행별로 정렬)
+dar = np.array([[4, 3, 5 , 7], [1, 12, 11, 9], [2, 15, 1, 14]])
+print(dar)
+print(np.sort(dar))
+print(np.sort(dar, axis=0))
+
+# 정렬하면 해당 배열의 구조를 바꿈 : 사용시 주의 필요함
+dar.sort(axis=1)
+print(dar)
+
+# argsort() 함수
+# 데이터를 정렬한 다음, 인덱스를 출력함
+ear = np.array([42, 38, 12, 25])
+print(ear)
+far = np.argsort(ear)
+print(far)  # 정렬한 후의 index 리턴
+print(ear[far]) # 정렬된 index 를 인덱서로 이용
+print(np.sort(ear))
 
 

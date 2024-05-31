@@ -1,0 +1,45 @@
+{
+    "os": "Windows-11-10.0.22631-SP0",
+    "python": "3.12.3",
+    "heartbeatAt": "2024-05-31T07:27:27.299313",
+    "startedAt": "2024-05-31T07:27:26.606287",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\python\\study_python\\_03_DQN\\e_reinforce_test\\d_reinforce_train.py",
+    "codePathLocal": "d_reinforce_train.py",
+    "codePath": "_03_DQN\\e_reinforce_test\\d_reinforce_train.py",
+    "git": {
+        "remote": "https://github.com/msj102525/study_python.git",
+        "commit": "afbc3272bbec95037faaae291e26423d212d5cd1"
+    },
+    "email": "msj102525@gmail.com",
+    "root": "D:/python/study_python",
+    "host": "WIN-CTN2EQA9GO7",
+    "username": "ict01-09",
+    "executable": "D:\\python\\study_python\\_03_DQN\\.venv\\Scripts\\python.exe",
+    "cpu_count": 12,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2100.0,
+        "min": 0.0,
+        "max": 2100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 2100.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 931.5107383728027,
+            "used": 56.78468704223633
+        }
+    },
+    "memory": {
+        "total": 15.721599578857422
+    }
+}

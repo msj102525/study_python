@@ -1,0 +1,104 @@
+[Episode  10, Time Steps    881] Episode Reward: -115.19504558315069, Replay buffer:    881, Loss: 19.136, Epsilon: 0.94, Training Steps:   849, Elapsed Time: 00:00:04
+[Episode  20, Time Steps  1,774] Episode Reward: -246.82592739417368, Replay buffer:  1,774, Loss: 207.452, Epsilon: 0.93, Training Steps: 1,742, Elapsed Time: 00:00:05
+[Episode  30, Time Steps  2,862] Episode Reward: -118.93810185414856, Replay buffer:  2,862, Loss: 32.524, Epsilon: 0.92, Training Steps: 2,830, Elapsed Time: 00:00:06
+[Episode  40, Time Steps  3,744] Episode Reward: -191.3971994585209, Replay buffer:  3,744, Loss: 159.488, Epsilon: 0.92, Training Steps: 3,712, Elapsed Time: 00:00:07
+[Episode  50, Time Steps  4,701] Episode Reward: -313.0583349061322, Replay buffer:  4,701, Loss: 12.988, Epsilon: 0.91, Training Steps: 4,669, Elapsed Time: 00:00:09
+[Validation Episode Reward: [-144.14605877 -795.78136082 -534.66369789]] Average: -491.530
+[Episode  60, Time Steps  5,679] Episode Reward: -118.35800869682417, Replay buffer:  5,679, Loss:  5.714, Epsilon: 0.90, Training Steps: 5,647, Elapsed Time: 00:00:10
+[Episode  70, Time Steps  6,636] Episode Reward: -195.15540097552145, Replay buffer:  6,636, Loss: 45.699, Epsilon: 0.89, Training Steps: 6,604, Elapsed Time: 00:00:11
+[Episode  80, Time Steps  7,540] Episode Reward: -223.56654250020352, Replay buffer:  7,540, Loss: 21.821, Epsilon: 0.88, Training Steps: 7,508, Elapsed Time: 00:00:13
+[Episode  90, Time Steps  8,467] Episode Reward: -114.45596605161765, Replay buffer:  8,467, Loss:  3.034, Epsilon: 0.87, Training Steps: 8,435, Elapsed Time: 00:00:14
+[Episode 100, Time Steps  9,469] Episode Reward: -91.98373042165412, Replay buffer:  9,469, Loss: 27.491, Epsilon: 0.87, Training Steps: 9,437, Elapsed Time: 00:00:15
+[Validation Episode Reward: [-98.17150246 -71.14784877 -66.17223042]] Average: -78.497
+[Episode 110, Time Steps 10,455] Episode Reward: -92.0208239839662, Replay buffer: 10,455, Loss:  2.147, Epsilon: 0.86, Training Steps: 10,423, Elapsed Time: 00:00:17
+[Episode 120, Time Steps 11,509] Episode Reward: -81.49697176144093, Replay buffer: 11,509, Loss:  4.814, Epsilon: 0.85, Training Steps: 11,477, Elapsed Time: 00:00:19
+[Episode 130, Time Steps 12,469] Episode Reward: -154.57166841976985, Replay buffer: 12,469, Loss: 17.583, Epsilon: 0.84, Training Steps: 12,437, Elapsed Time: 00:00:20
+[Episode 140, Time Steps 13,416] Episode Reward: -202.38108084529202, Replay buffer: 13,416, Loss:  1.946, Epsilon: 0.83, Training Steps: 13,384, Elapsed Time: 00:00:22
+[Episode 150, Time Steps 14,446] Episode Reward: -32.65837919038749, Replay buffer: 14,446, Loss:  8.951, Epsilon: 0.82, Training Steps: 14,414, Elapsed Time: 00:00:24
+[Validation Episode Reward: [-139.72552855  -92.90926752  -60.34067647]] Average: -97.658
+[Episode 160, Time Steps 15,365] Episode Reward: -116.03879514749426, Replay buffer: 15,365, Loss: 31.667, Epsilon: 0.82, Training Steps: 15,333, Elapsed Time: 00:00:25
+[Episode 170, Time Steps 16,535] Episode Reward: -88.16083112725121, Replay buffer: 16,535, Loss: 17.383, Epsilon: 0.81, Training Steps: 16,503, Elapsed Time: 00:00:27
+[Episode 180, Time Steps 17,593] Episode Reward: -39.60524313618525, Replay buffer: 17,593, Loss: 13.497, Epsilon: 0.80, Training Steps: 17,561, Elapsed Time: 00:00:29
+[Episode 190, Time Steps 18,607] Episode Reward: -67.06771207599692, Replay buffer: 18,607, Loss: 92.554, Epsilon: 0.79, Training Steps: 18,575, Elapsed Time: 00:00:30
+[Episode 200, Time Steps 19,834] Episode Reward: -40.509851533819486, Replay buffer: 19,834, Loss:  2.360, Epsilon: 0.78, Training Steps: 19,802, Elapsed Time: 00:00:32
+[Validation Episode Reward: [-179.07123745 -237.55608504 -210.34018002]] Average: -208.989
+[Episode 210, Time Steps 20,803] Episode Reward: -89.4438207399917, Replay buffer: 20,803, Loss:  2.705, Epsilon: 0.77, Training Steps: 20,771, Elapsed Time: 00:00:33
+[Episode 220, Time Steps 21,877] Episode Reward: -111.96420431949527, Replay buffer: 21,877, Loss: 67.361, Epsilon: 0.77, Training Steps: 21,845, Elapsed Time: 00:00:35
+[Episode 230, Time Steps 23,202] Episode Reward: -87.58284780257421, Replay buffer: 23,202, Loss:  3.788, Epsilon: 0.76, Training Steps: 23,170, Elapsed Time: 00:00:37
+[Episode 240, Time Steps 24,288] Episode Reward: -118.50656819833051, Replay buffer: 24,288, Loss: 12.933, Epsilon: 0.75, Training Steps: 24,256, Elapsed Time: 00:00:38
+[Episode 250, Time Steps 25,405] Episode Reward: -66.95088623034607, Replay buffer: 25,405, Loss: 47.949, Epsilon: 0.74, Training Steps: 25,373, Elapsed Time: 00:00:40
+[Validation Episode Reward: [-197.43790963 -150.20039783 -219.93135961]] Average: -189.190
+[Episode 260, Time Steps 26,367] Episode Reward: -90.38148570411158, Replay buffer: 26,367, Loss:  6.407, Epsilon: 0.73, Training Steps: 26,335, Elapsed Time: 00:00:42
+[Episode 270, Time Steps 27,380] Episode Reward: -82.82848892085092, Replay buffer: 27,380, Loss: 32.641, Epsilon: 0.72, Training Steps: 27,348, Elapsed Time: 00:00:43
+[Episode 280, Time Steps 28,294] Episode Reward: -48.55518203430239, Replay buffer: 28,294, Loss:  3.221, Epsilon: 0.72, Training Steps: 28,262, Elapsed Time: 00:00:45
+[Episode 290, Time Steps 29,421] Episode Reward: -107.67211647056021, Replay buffer: 29,421, Loss:  5.496, Epsilon: 0.71, Training Steps: 29,389, Elapsed Time: 00:00:47
+[Episode 300, Time Steps 30,545] Episode Reward: -35.0485319382407, Replay buffer: 30,545, Loss:  2.181, Epsilon: 0.70, Training Steps: 30,513, Elapsed Time: 00:00:48
+[Validation Episode Reward: [-189.29854884 -218.88224682 -184.05954267]] Average: -197.413
+[Episode 310, Time Steps 31,758] Episode Reward: -38.268535957071265, Replay buffer: 31,758, Loss:  3.378, Epsilon: 0.69, Training Steps: 31,726, Elapsed Time: 00:00:50
+[Episode 320, Time Steps 32,857] Episode Reward: -81.51022727248568, Replay buffer: 32,857, Loss:  2.342, Epsilon: 0.68, Training Steps: 32,825, Elapsed Time: 00:00:52
+[Episode 330, Time Steps 33,971] Episode Reward: -68.60996114542938, Replay buffer: 33,971, Loss: 102.996, Epsilon: 0.67, Training Steps: 33,939, Elapsed Time: 00:00:54
+[Episode 340, Time Steps 35,166] Episode Reward: -22.03428752048103, Replay buffer: 35,166, Loss: 16.149, Epsilon: 0.67, Training Steps: 35,134, Elapsed Time: 00:00:56
+[Episode 350, Time Steps 36,297] Episode Reward: -64.22213111493319, Replay buffer: 36,297, Loss:  2.404, Epsilon: 0.66, Training Steps: 36,265, Elapsed Time: 00:00:58
+[Validation Episode Reward: [-208.09306691 -178.54391407 -242.99362921]] Average: -209.877
+[Episode 360, Time Steps 37,513] Episode Reward: -37.300307063590935, Replay buffer: 37,513, Loss: 29.053, Epsilon: 0.65, Training Steps: 37,481, Elapsed Time: 00:01:00
+[Episode 370, Time Steps 38,720] Episode Reward: -27.418208104125, Replay buffer: 38,720, Loss: 106.637, Epsilon: 0.64, Training Steps: 38,688, Elapsed Time: 00:01:02
+[Episode 380, Time Steps 39,980] Episode Reward: -42.34479464999605, Replay buffer: 39,980, Loss:  2.900, Epsilon: 0.63, Training Steps: 39,948, Elapsed Time: 00:01:05
+[Episode 390, Time Steps 41,062] Episode Reward: -91.87535218909835, Replay buffer: 41,062, Loss:  4.016, Epsilon: 0.62, Training Steps: 41,030, Elapsed Time: 00:01:07
+[Episode 400, Time Steps 42,265] Episode Reward: -82.79489045790697, Replay buffer: 42,265, Loss:  1.930, Epsilon: 0.62, Training Steps: 42,233, Elapsed Time: 00:01:09
+[Validation Episode Reward: [-147.54375516 -209.8604211  -182.49817621]] Average: -179.967
+[Episode 410, Time Steps 43,574] Episode Reward: -57.317622575677476, Replay buffer: 43,574, Loss: 35.516, Epsilon: 0.61, Training Steps: 43,542, Elapsed Time: 00:01:11
+[Episode 420, Time Steps 44,790] Episode Reward: -16.33196922289396, Replay buffer: 44,790, Loss:  3.968, Epsilon: 0.60, Training Steps: 44,758, Elapsed Time: 00:01:14
+[Episode 430, Time Steps 46,002] Episode Reward: -31.040690644050045, Replay buffer: 46,002, Loss:  1.255, Epsilon: 0.59, Training Steps: 45,970, Elapsed Time: 00:01:16
+[Episode 440, Time Steps 47,647] Episode Reward: -19.342537343867008, Replay buffer: 47,647, Loss:  2.610, Epsilon: 0.58, Training Steps: 47,615, Elapsed Time: 00:01:20
+[Episode 450, Time Steps 49,275] Episode Reward: -45.33690409355302, Replay buffer: 49,275, Loss: 11.043, Epsilon: 0.57, Training Steps: 49,243, Elapsed Time: 00:01:23
+[Validation Episode Reward: [-288.49063818 -160.81893917 -139.49528554]] Average: -196.268
+[Episode 460, Time Steps 51,141] Episode Reward: -68.73921436330838, Replay buffer: 51,141, Loss:  2.476, Epsilon: 0.57, Training Steps: 51,109, Elapsed Time: 00:01:27
+[Episode 470, Time Steps 52,387] Episode Reward: -109.69442573366268, Replay buffer: 52,387, Loss: 20.433, Epsilon: 0.56, Training Steps: 52,355, Elapsed Time: 00:01:30
+[Episode 480, Time Steps 54,817] Episode Reward: -141.12114483011305, Replay buffer: 54,817, Loss: 19.310, Epsilon: 0.55, Training Steps: 54,785, Elapsed Time: 00:01:35
+[Episode 490, Time Steps 56,202] Episode Reward: -28.456695434151186, Replay buffer: 56,202, Loss:  1.575, Epsilon: 0.54, Training Steps: 56,170, Elapsed Time: 00:01:38
+[Episode 500, Time Steps 58,058] Episode Reward: -167.65115662247814, Replay buffer: 58,058, Loss: 39.972, Epsilon: 0.53, Training Steps: 58,026, Elapsed Time: 00:01:41
+[Validation Episode Reward: [-159.16235905 -249.06158048  -71.66669951]] Average: -159.964
+[Episode 510, Time Steps 59,750] Episode Reward: -27.450970581635033, Replay buffer: 59,750, Loss:  3.761, Epsilon: 0.52, Training Steps: 59,718, Elapsed Time: 00:01:45
+[Episode 520, Time Steps 62,603] Episode Reward: -67.4351783068535, Replay buffer: 62,603, Loss:  2.534, Epsilon: 0.52, Training Steps: 62,571, Elapsed Time: 00:01:52
+[Episode 530, Time Steps 64,935] Episode Reward: -37.67377041928945, Replay buffer: 64,935, Loss: 118.107, Epsilon: 0.51, Training Steps: 64,903, Elapsed Time: 00:01:57
+[Episode 540, Time Steps 67,555] Episode Reward: -115.09045057902695, Replay buffer: 67,555, Loss: 57.729, Epsilon: 0.50, Training Steps: 67,523, Elapsed Time: 00:02:03
+[Episode 550, Time Steps 70,547] Episode Reward: -104.11112120982557, Replay buffer: 70,547, Loss: 40.119, Epsilon: 0.49, Training Steps: 70,515, Elapsed Time: 00:02:10
+[Validation Episode Reward: [ -96.15300876 -196.94460598 -150.74687287]] Average: -147.948
+[Episode 560, Time Steps 72,574] Episode Reward: -235.1808835666625, Replay buffer: 72,574, Loss:  7.929, Epsilon: 0.48, Training Steps: 72,542, Elapsed Time: 00:02:15
+[Episode 570, Time Steps 77,706] Episode Reward: -206.20757675392804, Replay buffer: 77,706, Loss:  4.299, Epsilon: 0.47, Training Steps: 77,674, Elapsed Time: 00:02:28
+[Episode 580, Time Steps 82,090] Episode Reward: 2.1716623011368483, Replay buffer: 82,090, Loss:  6.839, Epsilon: 0.47, Training Steps: 82,058, Elapsed Time: 00:02:40
+[Episode 590, Time Steps 86,279] Episode Reward: -88.09235377812487, Replay buffer: 86,279, Loss:  5.490, Epsilon: 0.46, Training Steps: 86,247, Elapsed Time: 00:02:52
+[Episode 600, Time Steps 93,127] Episode Reward: -6.628255271327717, Replay buffer: 93,127, Loss: 55.035, Epsilon: 0.45, Training Steps: 93,095, Elapsed Time: 00:03:11
+[Validation Episode Reward: [-95.19005258 -36.28578126 -43.74956643]] Average: -58.408
+[Episode 610, Time Steps 99,242] Episode Reward: -35.36780235563417, Replay buffer: 99,242, Loss:  3.363, Epsilon: 0.44, Training Steps: 99,210, Elapsed Time: 00:03:28
+[Episode 620, Time Steps 105,307] Episode Reward: -188.17897612315346, Replay buffer: 105,307, Loss: 32.605, Epsilon: 0.43, Training Steps: 105,275, Elapsed Time: 00:03:47
+[Episode 630, Time Steps 109,770] Episode Reward: -111.02161573410507, Replay buffer: 109,770, Loss:  2.457, Epsilon: 0.42, Training Steps: 109,738, Elapsed Time: 00:04:00
+[Episode 640, Time Steps 112,230] Episode Reward: 24.925565817085058, Replay buffer: 112,230, Loss:  7.931, Epsilon: 0.42, Training Steps: 112,198, Elapsed Time: 00:04:08
+[Episode 650, Time Steps 115,306] Episode Reward: 18.14931590142332, Replay buffer: 115,306, Loss: 216.864, Epsilon: 0.41, Training Steps: 115,274, Elapsed Time: 00:04:17
+[Validation Episode Reward: [-29.32121456 -42.55453651 -20.15418978]] Average: -30.677
+[Episode 660, Time Steps 121,569] Episode Reward: -61.336385692647525, Replay buffer: 121,569, Loss: 31.146, Epsilon: 0.40, Training Steps: 121,537, Elapsed Time: 00:04:37
+[Episode 670, Time Steps 126,093] Episode Reward: -159.86750917465793, Replay buffer: 126,093, Loss: 27.899, Epsilon: 0.39, Training Steps: 126,061, Elapsed Time: 00:04:52
+[Episode 680, Time Steps 132,721] Episode Reward: -243.47842540333383, Replay buffer: 132,721, Loss: 13.629, Epsilon: 0.38, Training Steps: 132,689, Elapsed Time: 00:05:14
+[Episode 690, Time Steps 141,142] Episode Reward: -36.43421238329389, Replay buffer: 141,142, Loss:  3.133, Epsilon: 0.37, Training Steps: 141,110, Elapsed Time: 00:05:42
+[Episode 700, Time Steps 147,205] Episode Reward: -2.3904846688951125, Replay buffer: 147,205, Loss:  2.704, Epsilon: 0.37, Training Steps: 147,173, Elapsed Time: 00:06:04
+[Validation Episode Reward: [-31.7864986  -41.08039036  24.93507019]] Average: -15.977
+[Episode 710, Time Steps 155,768] Episode Reward: -8.191105812279194, Replay buffer: 155,768, Loss:  2.931, Epsilon: 0.36, Training Steps: 155,736, Elapsed Time: 00:06:37
+[Episode 720, Time Steps 162,553] Episode Reward: 70.37895511099022, Replay buffer: 162,553, Loss: 10.475, Epsilon: 0.35, Training Steps: 162,521, Elapsed Time: 00:07:03
+[Episode 730, Time Steps 170,613] Episode Reward: -3.2787703336540783, Replay buffer: 170,613, Loss: 36.959, Epsilon: 0.34, Training Steps: 170,581, Elapsed Time: 00:07:36
+[Episode 740, Time Steps 177,919] Episode Reward: 1.227787504526738, Replay buffer: 177,919, Loss:  4.634, Epsilon: 0.33, Training Steps: 177,887, Elapsed Time: 00:08:08
+[Episode 750, Time Steps 184,447] Episode Reward: -2.4833386074041908, Replay buffer: 184,447, Loss: 14.499, Epsilon: 0.32, Training Steps: 184,415, Elapsed Time: 00:08:36
+[Validation Episode Reward: [-36.54468508 -24.31094629  -9.58474974]] Average: -23.480
+[Episode 760, Time Steps 192,008] Episode Reward: 30.487914402067986, Replay buffer: 192,008, Loss: 40.724, Epsilon: 0.31, Training Steps: 191,976, Elapsed Time: 00:09:09
+[Episode 770, Time Steps 200,525] Episode Reward: 43.882059822578285, Replay buffer: 200,525, Loss: 83.207, Epsilon: 0.31, Training Steps: 200,493, Elapsed Time: 00:09:47
+[Episode 780, Time Steps 209,627] Episode Reward: 18.449554537364854, Replay buffer: 209,627, Loss: 140.719, Epsilon: 0.30, Training Steps: 209,595, Elapsed Time: 00:10:29
+[Episode 790, Time Steps 219,627] Episode Reward: 109.85579052207348, Replay buffer: 219,627, Loss:  4.200, Epsilon: 0.29, Training Steps: 219,595, Elapsed Time: 00:11:17
+[Episode 800, Time Steps 228,991] Episode Reward: 35.985781139072834, Replay buffer: 228,991, Loss:  5.637, Epsilon: 0.28, Training Steps: 228,959, Elapsed Time: 00:12:04
+[Validation Episode Reward: [-32.30895565  24.640966    -4.52027738]] Average: -4.063
+[Episode 810, Time Steps 237,445] Episode Reward: 158.8700806224008, Replay buffer: 237,445, Loss:  2.695, Epsilon: 0.27, Training Steps: 237,413, Elapsed Time: 00:13:17
+[Episode 820, Time Steps 246,783] Episode Reward: 2.8354988416643185, Replay buffer: 246,783, Loss: 83.593, Epsilon: 0.26, Training Steps: 246,751, Elapsed Time: 00:14:38
+[Episode 830, Time Steps 255,472] Episode Reward: 72.93586735053277, Replay buffer: 255,472, Loss:  9.823, Epsilon: 0.26, Training Steps: 255,440, Elapsed Time: 00:15:25
+[Episode 840, Time Steps 264,362] Episode Reward: 152.51604137224993, Replay buffer: 264,362, Loss:  3.762, Epsilon: 0.25, Training Steps: 264,330, Elapsed Time: 00:16:14
+[Episode 850, Time Steps 273,984] Episode Reward: 111.92622178801406, Replay buffer: 273,984, Loss:  5.156, Epsilon: 0.24, Training Steps: 273,952, Elapsed Time: 00:17:10
+[Validation Episode Reward: [222.03427393 212.8829482  202.14936492]] Average: 212.356
+Solved in 273,984 steps (273,952 training steps)!
+Total Training End : 00:17:10

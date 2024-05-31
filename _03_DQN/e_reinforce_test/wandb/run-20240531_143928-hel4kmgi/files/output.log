@@ -1,0 +1,38 @@
+Traceback (most recent call last):
+  File "D:\python\study_python\_03_DQN\e_reinforce_test\d_reinforce_train.py", line 274, in <module>
+    main()
+  File "D:\python\study_python\_03_DQN\e_reinforce_test\d_reinforce_train.py", line 267, in main
+    reinforce = REINFORCE(
+                ^^^^^^^^^^
+  File "D:\python\study_python\_03_DQN\e_reinforce_test\d_reinforce_train.py", line 47, in __init__
+    self.optimizer = optim.Adam(self.policy.parameters(), lr=self.learning_rate)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\study_python\_03_DQN\.venv\Lib\site-packages\torch\optim\adam.py", line 45, in __init__
+    super().__init__(params, defaults)
+  File "D:\python\study_python\_03_DQN\.venv\Lib\site-packages\torch\optim\optimizer.py", line 278, in __init__
+    self.add_param_group(cast(dict, param_group))
+  File "D:\python\study_python\_03_DQN\.venv\Lib\site-packages\torch\_compile.py", line 22, in inner
+    import torch._dynamo
+  File "D:\python\study_python\_03_DQN\.venv\Lib\site-packages\torch\_dynamo\__init__.py", line 2, in <module>
+    from . import allowed_functions, convert_frame, eval_frame, resume_execution
+  File "D:\python\study_python\_03_DQN\.venv\Lib\site-packages\torch\_dynamo\allowed_functions.py", line 30, in <module>
+    from .utils import hashable, is_safe_constant, NP_SUPPORTED_MODULES
+  File "D:\python\study_python\_03_DQN\.venv\Lib\site-packages\torch\_dynamo\utils.py", line 89, in <module>
+    import torch.fx.experimental.symbolic_shapes
+  File "D:\python\study_python\_03_DQN\.venv\Lib\site-packages\torch\fx\experimental\symbolic_shapes.py", line 38, in <module>
+    from torch.utils._sympy.functions import FloorDiv, Mod, IsNonOverlappingAndDenseIndicator
+  File "D:\python\study_python\_03_DQN\.venv\Lib\site-packages\torch\utils\_sympy\functions.py", line 1, in <module>
+    import sympy
+  File "D:\python\study_python\_03_DQN\.venv\Lib\site-packages\sympy\__init__.py", line 74, in <module>
+    from .polys import (Poly, PurePoly, poly_from_expr, parallel_poly_from_expr,
+  File "D:\python\study_python\_03_DQN\.venv\Lib\site-packages\sympy\polys\__init__.py", line 68, in <module>
+    from .polytools import (Poly, PurePoly, poly_from_expr,
+  File "D:\python\study_python\_03_DQN\.venv\Lib\site-packages\sympy\polys\polytools.py", line 26, in <module>
+    from sympy.polys.constructor import construct_domain
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1087, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1186, in get_data
+KeyboardInterrupt

@@ -1,0 +1,29 @@
+
+[Episode  20, Steps 18,970] Episode Reward:  -324.145, Policy Loss:  -3.090, Training Steps:    20 Elapsed Time: 00:00:03
+[Episode  40, Steps 38,369] Episode Reward:  -319.929, Policy Loss:  -2.691, Training Steps:    40 Elapsed Time: 00:00:07
+[Episode  60, Steps 57,718] Episode Reward:  -321.923, Policy Loss:   3.129, Training Steps:    60 Elapsed Time: 00:00:10
+[Validation Episode Reward: [-257.2919347  -257.3719941  -210.99266219 -254.64846742]] Average: -245.076
+[Episode  80, Steps 75,573] Episode Reward:  -107.950, Policy Loss:  -6.428, Training Steps:    80 Elapsed Time: 00:00:14
+[Episode 100, Steps 92,997] Episode Reward:   -40.288, Policy Loss:  -1.346, Training Steps:   100 Elapsed Time: 00:00:17
+[Episode 120, Steps 109,823] Episode Reward:  -325.674, Policy Loss:  -4.475, Training Steps:   120 Elapsed Time: 00:00:21
+[Episode 140, Steps 128,594] Episode Reward:  -320.080, Policy Loss:  -1.807, Training Steps:   140 Elapsed Time: 00:00:24
+[Validation Episode Reward: [-378.66061664 -354.59350434 -368.93188979 -375.32510037]] Average: -369.378
+[Episode 160, Steps 147,132] Episode Reward:  -157.283, Policy Loss:  -3.924, Training Steps:   160 Elapsed Time: 00:00:28
+[Episode 180, Steps 166,493] Episode Reward:  -122.725, Policy Loss:  -7.151, Training Steps:   180 Elapsed Time: 00:00:32
+Traceback (most recent call last):
+  File "D:\python\study_python\_03_DQN\e_reinforce_test\d_reinforce_train.py", line 274, in <module>
+    main()
+  File "D:\python\study_python\_03_DQN\e_reinforce_test\d_reinforce_train.py", line 270, in main
+    reinforce.train_loop()
+  File "D:\python\study_python\_03_DQN\e_reinforce_test\d_reinforce_train.py", line 75, in train_loop
+    action = self.policy.get_action(observation)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\study_python\_03_DQN\e_reinforce_test\c_policy_and_value.py", line 54, in get_action
+    mu_v, std_v = self.forward(x)
+                  ^^^^^^^^^^^^^^^
+  File "D:\python\study_python\_03_DQN\e_reinforce_test\c_policy_and_value.py", line 40, in forward
+    x = F.relu(self.fc2(x))
+               ^^^^^^^^
+  File "D:\python\study_python\_03_DQN\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1675, in __getattr__
+    def __getattr__(self, name: str) -> Any:
+KeyboardInterrupt

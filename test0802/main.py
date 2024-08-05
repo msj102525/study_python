@@ -1,3 +1,9 @@
+# Python 3.12
+
+# CatBoost 1.2.5
+
+# numpy 1.26.4
+
 # 필요한 라이브러리와 모듈을 가져옵니다.
 import pandas as pd  # 데이터 처리 라이브러리
 
